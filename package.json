@@ -6,7 +6,7 @@
   "homepage": "https://rudezy.github.io/React-Portfolio/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b main -d src",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
