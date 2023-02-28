@@ -8,7 +8,6 @@ export default function Main() {
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        // src="https://assets3.thrillist.com/v1/image/3115440/2880x1620/crop;webp=auto;jpeg_quality=60;progressive.jpg" alt='/'
         src={gif} alt='/'
       ></img>
       <div className="w-full h-screen absolute top-0 left-0 bg-white/30">
@@ -19,12 +18,16 @@ export default function Main() {
             <TypeAnimation
               sequence={[
                 "Developer", // Types 'One'
-                3000, // Waits 1s
+                3000, 
                 "Coder", // Deletes 'One' and types 'Two'
-                3000, // Waits 2s
+                3000, 
                 "Tech Enthusiast", // Types 'Three' without deleting 'Two'
                 3000,
                 "Power Lifting Enthusiast", // Types 'Four' without deleting '
+                3000,
+                "Car Enthusiast", // Types 'Five' without deleting '
+                3000,
+                "Gamer",
                 3000,
               ]}
               wrapper="div"
@@ -34,10 +37,9 @@ export default function Main() {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <FaGithub className='cursor-pointer' size={20}/>
-            
-            <FaInstagram className='cursor-pointer' size={20}/>
-            <FaLinkedinIn className='cursor-pointer' size={20}/>
+            <a href="https://github.com/RudezY"><FaGithub href='https://github.com/RudezY' className='cursor-pointer' size={20}/></a>
+            <a href="https://www.instagram.com/ruedayy/?igshid-NzAzN2Q1NTE="><FaInstagram className='cursor-pointer' size={20}/></a>
+            <a href="https://www.linkedin.com/in/rudy-yamashiro-036113251/"><FaLinkedinIn className='cursor-pointer' size={20}/></a>
           </div>
         </div>
       </div>

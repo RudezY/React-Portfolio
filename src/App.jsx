@@ -3,7 +3,8 @@ import React from 'react'
 import SideNav from './components/Sidenav'
 import Main from './components/Main'
 import Work from './components/Work'
-import Projects from './components/Projects'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <SideNav />
       <Main />
       <Work />
-      <Projects />
+      <Portfolio />
+      <Contact />
     </div>
   )
 }
