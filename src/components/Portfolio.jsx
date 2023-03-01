@@ -16,12 +16,12 @@ export default function Portfolio() {
               These are some of the projects and assignments that I have completed during my boot camp experience! These will be updated with personal side projects in the near future!
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
-                <a href="https://github.com/RudezY/GetYourDrinkON-"><PortfolioItem img={GYOD} title='GetYourDrinkOn'/></a>
-                <a href="https://github.com/RudezY/TeamProfileGen"><PortfolioItem img={teamGen} title='Team Profile Generator'/></a>
-                <a href="https://github.com/RudezY/Gymder"><PortfolioItem img={Gymder} title='Gymder'/></a>
-                <a href="https://github.com/RudezY/Tech-Blog"><PortfolioItem img={handlebars} title="Tech Blog"/></a>
-                <a href="https://github.com/RudezY/SocialNetworkAPI"><PortfolioItem img={nosql} title="Social network API"/></a>
-                <a href="https://github.com/RudezY/E-commerce-backend"><PortfolioItem img={mysql} title="E-commerce backend"/></a>
+                <a href="https://github.com/RudezY/GetYourDrinkON-" target="_blank" rel="noopener noreferrer"><PortfolioItem img={GYOD} title='GetYourDrinkOn'/></a>
+                <a href="https://github.com/RudezY/TeamProfileGen"target="_blank" rel="noopener noreferrer"><PortfolioItem img={teamGen} title='Team Profile Generator'/></a>
+                <a href="https://github.com/RudezY/Gymder"target="_blank" rel="noopener noreferrer"><PortfolioItem img={Gymder} title='Gymder'/></a>
+                <a href="https://github.com/RudezY/Tech-Blog"target="_blank" rel="noopener noreferrer"><PortfolioItem img={handlebars} title="Tech Blog"/></a>
+                <a href="https://github.com/RudezY/SocialNetworkAPI"target="_blank" rel="noopener noreferrer"><PortfolioItem img={nosql} title="Social network API"/></a>
+                <a href="https://github.com/RudezY/E-commerce-backend"target="_blank" rel="noopener noreferrer"><PortfolioItem img={mysql} title="E-commerce backend"/></a>
             </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaGithub, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 import gif from '../assets/fujiiiiiiiiiiiiiiiiiii.gif'
 
 export default function Main() {
@@ -37,9 +37,9 @@ export default function Main() {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <a href="https://github.com/RudezY"><FaGithub href='https://github.com/RudezY' className='cursor-pointer' size={20}/></a>
-            <a href="https://www.instagram.com/ruedayy/?igshid-NzAzN2Q1NTE="><FaInstagram className='cursor-pointer' size={20}/></a>
-            <a href="https://www.linkedin.com/in/rudy-yamashiro-036113251/"><FaLinkedinIn className='cursor-pointer' size={20}/></a>
+            <a href="https://github.com/RudezY"><FaGithub href='https://github.com/RudezY' target="_blank" rel="noopener noreferrer" className='cursor-pointer' size={20}/></a>
+            <a href="https://www.instagram.com/ruedayy/?igshid-NzAzN2Q1NTE="><FaInstagram target="_blank" rel="noopener noreferrer" className='cursor-pointer' size={20}/></a>
+            <a href="https://www.linkedin.com/in/rudy-yamashiro-036113251/"><FaLinkedinIn target="_blank" rel="noopener noreferrer" className='cursor-pointer' size={20}/></a>
           </div>
         </div>
       </div>
